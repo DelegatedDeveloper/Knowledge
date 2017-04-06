@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Knowledge Task" max_length="40" name="sn_knowledge_17_knowledge_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Image description" max_length="100" name="image_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Image URL" max_length="100" name="image_url" type="string"/>
+    </element>
+</database>

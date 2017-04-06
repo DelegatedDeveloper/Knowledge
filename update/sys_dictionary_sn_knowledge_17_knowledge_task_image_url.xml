@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="sn_knowledge_17_image_description" table="problem">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="image_url" table="sn_knowledge_17_knowledge_task">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -10,7 +10,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Image description</column_label>
+        <column_label>Image URL</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,13 +23,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>sn_knowledge_17_image_description</element>
+        <element>image_url</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>100</max_length>
-        <name>problem</name>
+        <name>sn_knowledge_17_knowledge_task</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>Broc.Oppler@snc</sys_created_by>
-        <sys_created_on>2017-03-24 15:56:05</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>a5ae741c13867200efffb6004244b01b</sys_id>
+        <sys_created_on>2017-04-06 15:23:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>0b6f3c9c13867200efffb6004244b015</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Image description</sys_name>
+        <sys_name>Image URL</sys_name>
         <sys_package display_value="Knowledge 17" source="sn_knowledge_17">56890ec413357200efffb6004244b0ea</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Knowledge 17">56890ec413357200efffb6004244b0ea</sys_scope>
-        <sys_update_name>sys_dictionary_problem_sn_knowledge_17_image_description</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-04-06 15:20:31</sys_updated_on>
+        <sys_update_name>sys_dictionary_sn_knowledge_17_knowledge_task_image_url</sys_update_name>
+        <sys_updated_by>Broc.Oppler@snc</sys_updated_by>
+        <sys_updated_on>2017-04-06 15:23:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
